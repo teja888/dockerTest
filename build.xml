@@ -1,7 +1,7 @@
 <project name="docker" default="package">
 <target name="compile">
 <mkdir= "classes"/>
-<javac srcdir=HelloWorld.java destdir="classes"/>
+<javac srcdir="src" destdir="classes"/>
 </target>
 <target name="package" depends="compile">
 <java basedir="classes" destfile="HelloWorld.jar"/>
