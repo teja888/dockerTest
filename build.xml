@@ -4,6 +4,6 @@
 <javac srcdir="src" destdir="classes"/>
 </target>
 <target name="package" depends="compile">
-<java basedir="classes" destfile="HelloWorld.jar"/>
+<jar basedir="classes" destfile="HelloWorld.jar"/>
 </target>
 </project>
