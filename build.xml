@@ -1,6 +1,6 @@
 <project name="docker" default="package">
 <target name="compile">
-<mkdir= "classes"/>
+<mkdir dir="classes"/>
 <javac srcdir="src" destdir="classes"/>
 </target>
 <target name="package" depends="compile">
